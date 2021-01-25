@@ -1,0 +1,64 @@
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+DependencyInjectionConstructor/DependencyInjectionConstructor/[Dd]ebug/
+DependencyInjectionConstructor/DependencyInjectionConstructor/[Rr]elease/
+DependencyInjectionConstructor/DependencyInjectionConstructor/x64/
+DependencyInjectionConstructor/DependencyInjectionConstructor/[Bb]in/
+DependencyInjectionConstructor/DependencyInjectionConstructor/[Oo]bj/
+
+DependencyInjectionMethod/DependencyInjectionMethod/[Dd]ebug/
+DependencyInjectionMethod/DependencyInjectionMethod/[Rr]elease/
+DependencyInjectionMethod/DependencyInjectionMethod/x64/
+DependencyInjectionMethod/DependencyInjectionMethod/[Bb]in/
+DependencyInjectionMethod/DependencyInjectionMethod/[Oo]bj/
+
+DependencyInjectionProperty/DependencyInjectionProperty/[Dd]ebug/
+DependencyInjectionProperty/DependencyInjectionProperty/[Rr]elease/
+DependencyInjectionProperty/DependencyInjectionProperty/x64/
+DependencyInjectionProperty/DependencyInjectionProperty/[Bb]in/
+DependencyInjectionProperty/DependencyInjectionProperty/[Oo]bj/
+
+# OS generated files #
+.DS_Store*
+Icon?
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+
+# Visual Studio temp something
+.vs/
+
+
+# Visual Studio Code
+.vscode/
+
+# dotnet stuff
+project.lock.json
